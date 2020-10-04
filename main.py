@@ -1,4 +1,12 @@
-from tkinter import *
+#remember don't import everything from tkinter as it gives you 100+ error if don't use all.
+#Import single
+
+from tkinter import Label
+from tkinter import Entry
+from tkinter import Button
+from tkinter import mainloop
+from tkinter import Tk
+from tkinter import END
 from tkinter import messagebox
 
 root = Tk()
